@@ -9,15 +9,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="vi">
-      <body
-        className="min-h-screen bg-cover bg-center"
-        style={{ backgroundImage: "url('/anh_truongbk.jpg')" }}
-      >
+    <html lang="vi" suppressHydrationWarning>
+      <body className="min-h-screen antialiased">
         <DashboardLayout>{children}</DashboardLayout>
       </body>
     </html>
