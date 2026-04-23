@@ -1,7 +1,7 @@
 # Tutor Support System (TSS) - Admin Dashboard
 
 **Course:** Software Engineering - CO3001
-
+![BQL_home](public/BQL_home.png)
 ## Project Overview
 
 This repository contains the **Admin Dashboard** for the **Tutor Support System** at Ho Chi Minh City University of Technology (HCMUT). Built with **Next.js (App Router)**, the application provides administrators with a centralized interface to manage students, tutors, and program reports.

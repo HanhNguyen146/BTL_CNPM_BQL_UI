@@ -11,7 +11,6 @@ import {
   Settings,
   ChevronDown,
   GraduationCap,
-  Bell,
   LogOut,
   Menu,
 } from 'lucide-react';
@@ -285,14 +284,6 @@ export default function DashboardLayout({
           </div>
 
           <div className="flex items-center gap-2">
-            {/* Bell */}
-            <button className="relative p-2 rounded-xl text-slate-500 hover:bg-slate-100 hover:text-slate-700 transition-all duration-200 group">
-              <Bell size={18} />
-              <span className="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full ring-1 ring-white" />
-            </button>
-
-            <div className="w-px h-6 bg-slate-200 mx-1" />
-
             {/* Avatar + name */}
             <div className="flex items-center gap-2.5 pl-1 pr-2 py-1.5 rounded-xl hover:bg-slate-50 transition-all duration-200 cursor-pointer">
               <div className="relative w-8 h-8 rounded-full overflow-hidden ring-2 ring-blue-200 shadow-sm flex-shrink-0">
